@@ -21,4 +21,22 @@ export class CafeComponent implements OnInit {
     this.getCafes();
   }
 
+  countCafeTypes() {
+    let blendCount = 0;
+    let originCount = 0;
+
+    this.cafes.forEach((cafe) => {
+      if (cafe.tipo === 'Blend') {
+        blendCount++;
+      } else if (cafe.tipo === 'Café de Origen') {
+        originCount++;
+      }
+    });
+
+    return {
+      blend: blendCount,
+      origin: originCount
+    };
+  }
+
 }

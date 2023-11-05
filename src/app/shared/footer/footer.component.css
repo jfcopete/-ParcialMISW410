@@ -1,0 +1,13 @@
+/* CSS para el footer */
+.footer {
+    background-color: #fff; /* Fondo negro, asumiendo basado en la imagen */
+    color: gray; /* Texto blanco */
+    text-align: center; /* Centra el texto */
+    padding: 10px; /* Añade relleno para espacio alrededor del texto */
+    font-size: 0.8em; /* Reduce el tamaño de la fuente si es necesario */
+  }
+  
+  .footer p {
+    margin: 0; /* Elimina el margen predeterminado para <p> */
+  }
+  

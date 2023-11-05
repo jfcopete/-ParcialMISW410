@@ -1,0 +1,21 @@
+/* CSS para el encabezado */
+.header {
+    background-image: url('../../../../assets/header.jpg'); /* Asume una ruta relativa a la imagen */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Para texto blanco */
+    text-align: left; /* Alineación del texto a la izquierda */
+    padding: 20px; /* Ajusta el relleno según sea necesario */
+    border-bottom: 3px solid #000; /* Línea de división negra */
+  }
+  
+  .header-title {
+    margin: 0;
+    font-family: 'Times New Roman', serif; /* Establece la familia de fuentes a una similar a la imagen */
+    font-size: 48px; /* Tamaño de fuente basado en la imagen, ajustar al gusto */
+    line-height: 1.2; /* Ajusta el espaciado de la línea */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Sombra de texto para mejorar la legibilidad */
+  }
+  
+  /* Asegúrese de que no haya otras reglas CSS que puedan estar sobrescribiendo estas */
+  

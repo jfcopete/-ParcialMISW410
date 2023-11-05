@@ -7,6 +7,7 @@ import { CafeComponent } from 'src/app/cafe/cafe.component';
 import { CafeModule } from './cafe/cafe.module';
 import { CafeService } from './services/cafe.service';
 import { HttpClientModule } from '@angular/common/http';
+import { SharedModule } from './shared/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     CafeModule,
-    HttpClientModule
+    HttpClientModule,
+    SharedModule
   ],
   providers: [CafeService],
   bootstrap: [AppComponent]
